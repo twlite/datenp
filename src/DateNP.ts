@@ -73,6 +73,10 @@ export class DateNP {
         return Date.now();
     }
 
+    public isLeapYear(year?: number) {
+        return this.utils.leapYears.includes(year || this.toBS().year);
+    }
+
     public toString() {
         const bs = this.toBS();
         return `${bs.year}/${bs.month}/${bs.day} ${this.getDayName(true)}`;
