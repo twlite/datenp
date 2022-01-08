@@ -1,6 +1,6 @@
 {
   "name": "datenp",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Lightweight JavaScript library for nepali date conversion",
   "main": "dist/mod.js",
   "module": "dist/mod.mjs",

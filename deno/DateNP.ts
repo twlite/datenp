@@ -92,7 +92,10 @@ export class DateNP {
     }
 
     public toJSON() {
-        return this.toString();
+        return {
+            AD: this.toAD(),
+            BS: this.toBS()
+        };
     }
 
     public valueOf() {

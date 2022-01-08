@@ -2,6 +2,8 @@
 
 Lightweight JavaScript library to convert Nepali and English dates.
 
+[![](https://data.jsdelivr.com/v1/package/npm/datenp/badge?style=rounded)](https://www.jsdelivr.com/package/npm/datenp) [![](https://img.shields.io/npm/dt/datenp.svg)](https://img.shields.io)
+
 # Features
 
 - Lightweight
@@ -22,6 +24,14 @@ $ npm install datenp
 
 ```ts
 import DateNP from "https://deno.land/x/datenp/mod.ts";
+```
+
+## Browsers
+
+```html
+<script type="module">
+import DateNP from "https://cdn.jsdelivr.net/npm/datenp@latest/dist/mod.mjs";
+</script>
 ```
 
 # Example
